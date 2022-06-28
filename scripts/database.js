@@ -27,7 +27,7 @@ const database = {
         {id: 4, type: "18-inch Pair Spoke Black", price: 2000}
     ],
     customOrders: [
-        {id: 1, paintId: 1, interiorID: 1, techPackageId: 1, wheelId: 1, timestamp: 1614659931693 } // totalPrice property?
+        {id: 1, paintId: 1, interiorId: 1, techPackageId: 1, wheelId: 1, timestamp: 1614659931693 } // totalPrice property?
     ]
 }
 

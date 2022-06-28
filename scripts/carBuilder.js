@@ -4,6 +4,15 @@ import { techPackageOptions } from "./techPackages.js";
 import { wheelOptions } from "./wheels.js";
 import { customOrders } from "./orders.js";
 
+document.addEventListener(
+    "click",
+    (event) => {
+        if (event.target.id === "orderButton") {
+            addCustomOrder()
+        }
+    }
+)
+
 export const carBuilderHTML = () => {
     return `
     <h1>Cars 'R Us: Personal Car Builder</h1>
