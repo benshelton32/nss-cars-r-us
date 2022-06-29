@@ -9,6 +9,11 @@ const buildOrderList = (order) => {
 
     const foundPaint = paints.find(paint => {
         return paint.id === order.paintId
+        // if (paint.id === order.paintId) {
+        //     return paint
+        // }
+
+        // 12-14 does the same as 11
         }
     )
 
@@ -43,6 +48,8 @@ export const customOrders = () => {
     let html = `<h2>Custom Car Orders</h2>`
 
     const listItems = orders.map(buildOrderList)
+    // const listItem = orders.map((order) => buildOrderList(order))
+    // 51 does the same as 50
 
     html += listItems.join("")
 

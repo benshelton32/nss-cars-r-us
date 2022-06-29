@@ -3,6 +3,7 @@ import { interiorTypeOptions } from "./interiorTypes.js";
 import { techPackageOptions } from "./techPackages.js";
 import { wheelOptions } from "./wheels.js";
 import { customOrders } from "./orders.js";
+import { addCustomOrder } from "./database.js"
 
 document.addEventListener(
     "click",

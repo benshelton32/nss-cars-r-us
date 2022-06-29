@@ -1,0 +1,23 @@
+.choices {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.options {
+    flex-basis: 24%;
+    margin: 2rem 2rem;
+    border: 1px dashed #9ec2de;
+    background-color: #f5f5db;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(143, 143, 143);
+}
+
+.orders {
+    background-color: #eff8ff;
+    border: 1px dashed #9ec2de;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(143, 143, 143);
+}
